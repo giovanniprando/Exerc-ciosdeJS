@@ -1,4 +1,4 @@
-/* 
+/*
 //Atividade 1
 
 let name = "Giovanni";
@@ -31,7 +31,6 @@ console.log("Valor possuído: " + valorPossuido);
 console.log("Valor do produto: " + valorProduto);
 console.log("Troco: " + Troco);
 
-
 //Atividade 4
 
 let valorCelcius = 34;
@@ -48,7 +47,6 @@ let valorArea = valorComprimento * valorLargura;
 console.log("Comprimento: " + valorComprimento);
 console.log("Largura: " + valorLargura);
 console.log("Área: " + valorArea);
-
 
 //Atividade 6
 
@@ -113,7 +111,6 @@ function somar(num1, num2) {
 }
 console.log(somar(10, 20));
 
-
 //Atividade 12
 
 function calculadora(numero1, numero2) {
@@ -166,7 +163,6 @@ console.log(
   calcularMedia(aluno3.nota1, aluno3.nota2, aluno3.nota3),
 );
 
-
 //Atividade 14
 
 function calcularSalario(salario, bonus) {
@@ -197,7 +193,6 @@ console.log("preco: " + preco);
 console.log("desconto: " + desconto + "%");
 console.log("Preço Final: " + precoFinal);
 
-
 //Atividade 16
 
 function calcularCurso(valorCurso, quantidadeParcelas) {
@@ -213,7 +208,6 @@ calcularCurso(1200, 6);
 calcularCurso(3000, 10);
 calcularCurso(500, 2);
 
-
 //Atividade 17
 
 function calcularComissao(totalVendido, percentualComissao) {
@@ -226,7 +220,7 @@ const valorComissao = calcularComissao(totalVendido, percentualComissao);
 
 console.log("Total Vendido: " + totalVendido);
 console.log("Comissão: " + percentualComissao + "%");
-console.log("Valor da comissão: " + valorComissao); 
+console.log("Valor da comissão: " + valorComissao);
 
 //Atividade 18
 function calcularPagamento(horas, valorHora) {
@@ -250,7 +244,6 @@ let pagamento3 = calcularPagamento(200, 20);
 console.log("Horas trabalhadas:", 200);
 console.log("Valor por hora: R$", 20);
 console.log("Pagamento: R$", pagamento3);
-
 
 //Atividade 19
 function boletim(nome, nota1, nota2, nota3) {
@@ -303,17 +296,16 @@ console.log("=================================================");
 console.log("               Orçamento - PC GAMER              ");
 console.log("=================================================");
 console.log("                                                 ");
-console.log("Processador:           " + "R$ " + valorProcessador);
-console.log("Memória RAM:           " + "R$ " + valorRam);
-console.log("SSD:                   " + "R$ " + valorSSD);
-console.log("Placa de vídeo:        " + "R$" + valorGPU);
+console.log("Processador:        " + "R$ " + valorProcessador + ",00");
+console.log("Memória RAM:        " + "R$ " + valorRam + ",00");
+console.log("SSD:                " + "R$ " + valorSSD + ",00");
+console.log("Placa de vídeo:     " + "R$ " + valorGPU + ",00");
 console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
-console.log("Total:                 " + "R$" + valorTotal());
+console.log("Total:              " + "R$ " + valorTotal() + ",00");
 console.log();
 console.log("Desconto:              " + valorDesconto + "%");
-console.log("Valor Do Desconto:     " + "R$" + desconto());
+console.log("Valor Do Desconto:  " + "R$ " + desconto() + ",00");
 console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
-console.log("Valor Final:           " + "R$" + valorFinal());
-console.log("À vista:               " + "R$" + valoraVista());
-console.log("12x:                   " + "R$" + valorDaParcela());
-*/
+console.log("Valor Final:        " + "R$ " + valorFinal() + ",00");
+console.log("À vista:            " + "R$ " + valoraVista() + ",00");
+console.log("12x:                " + "R$ " + valorDaParcela() + "0");
