@@ -1,4 +1,5 @@
-/* //atividade 1
+/* 
+//Atividade 1
 
 let name = "Giovanni";
 let age = 30;
@@ -29,11 +30,11 @@ let Troco = valorPossuido - valorProduto;
 console.log("Valor possuído: " + valorPossuido);
 console.log("Valor do produto: " + valorProduto);
 console.log("Troco: " + Troco);
- */
+
 
 //Atividade 4
 
-/* let valorCelcius = 34;
+let valorCelcius = 34;
 let valorFahrenheit = (valorCelcius * 9) / 5 + 32;
 
 console.log("Temperatura em Celsius: " + valorCelcius);
@@ -47,11 +48,11 @@ let valorArea = valorComprimento * valorLargura;
 console.log("Comprimento: " + valorComprimento);
 console.log("Largura: " + valorLargura);
 console.log("Área: " + valorArea);
- */
+
 
 //Atividade 6
 
-/* let salarioDevjunior = 3500;
+let salarioDevjunior = 3500;
 let salarioReajuste = 8;
 let valordoReajuste = salarioDevjunior * (salarioReajuste / 100);
 let salarioNovo = valordoReajuste + salarioDevjunior;
@@ -59,11 +60,11 @@ let salarioNovo = valordoReajuste + salarioDevjunior;
 console.log("Salario atual: " + salarioDevjunior);
 console.log("Reajuste: " + salarioReajuste + "%");
 console.log("Valor do Reajuste: " + valordoReajuste);
-console.log("Novo salário: " + salarioNovo); */
+console.log("Novo salário: " + salarioNovo);
 
 //Atividade 7
 
-/* let valorNotebook = 4000;
+let valorNotebook = 4000;
 let desconto = 15;
 let valorDesconto = valorNotebook * (desconto / 100);
 let precofinal = valorNotebook - valorDesconto;
@@ -71,10 +72,10 @@ let precofinal = valorNotebook - valorDesconto;
 console.log("Valor do notebook: " + valorNotebook);
 console.log("Desconto: " + desconto + "%");
 console.log("Valor do Desconto: " + valorDesconto);
-console.log("Total a pagar: " + precofinal); */
+console.log("Total a pagar: " + precofinal);
 
 //Atividade 8
-/* 
+
 let aluno = "João";
 let nota1 = 7;
 let nota2 = 8;
@@ -82,20 +83,20 @@ let nota3 = 9;
 let media = (nota1 + nota2 + nota3) / 3;
 
 console.log("Aluno: " + aluno);
-console.log("Média: " + media); */
+console.log("Média: " + media);
 
 //Atividade 9
-/* let horas = 4;
+let horas = 4;
 let minutos = 60 * 4;
 let segundos = minutos * 60;
 
 console.log("Horas: " + horas);
 console.log("Minutos: " + minutos);
 console.log("Segundos: " + segundos);
- */
+
 //Atividade 10
 
-/* let distancia = 300;
+let distancia = 300;
 let consumo = 12;
 let gasolina = 6;
 let litros = distancia / consumo;
@@ -103,30 +104,30 @@ let Custo = litros * gasolina;
 
 console.log("Distância percorrida: " + distancia + "km");
 console.log("Consumo de gasolina: " + litros + "L");
-console.log("Custo da viagem: " + "R$" + Custo); */
+console.log("Custo da viagem: " + "R$" + Custo);
 
 //Atividade 11
 
-/* function somar(num1, num2) {
+function somar(num1, num2) {
   return num1 + num2;
 }
 console.log(somar(10, 20));
- */
+
 
 //Atividade 12
 
-/* function calculadora(numero1, numero2) {
+function calculadora(numero1, numero2) {
   console.log("Soma:", numero1 + numero2);
   console.log("Subtração:", numero1 - numero2);
   console.log("Multiplicação:", numero1 * numero2);
   console.log("Divisão:", numero1 / numero2);
 }
 
-calculadora(20, 5); */
+calculadora(20, 5);
 
 //Atividade 13
 
-/* function calcularMedia(nota1, nota2, nota3) {
+function calcularMedia(nota1, nota2, nota3) {
   return (nota1 + nota2 + nota3) / 3;
 }
 let aluno1 = {
@@ -164,11 +165,11 @@ console.log(
   aluno3.nome,
   calcularMedia(aluno3.nota1, aluno3.nota2, aluno3.nota3),
 );
- */
+
 
 //Atividade 14
 
-/* function calcularSalario(salario, bonus) {
+function calcularSalario(salario, bonus) {
   return salario + bonus;
 }
 
@@ -178,11 +179,11 @@ let salariofinal = salario + bonus;
 
 console.log("Salário: " + salario);
 console.log("Bônus: " + bonus);
-console.log("Salário Final: " + calcularSalario(12000, 1500)); */
+console.log("Salário Final: " + calcularSalario(12000, 1500));
 
 //Atividade 15
 
-/* function calcularDesconto(preco, percentual) {
+function calcularDesconto(preco, percentual) {
   return preco - preco * (percentual / 100);
 }
 
@@ -195,9 +196,10 @@ console.log("Produto: " + produto);
 console.log("preco: " + preco);
 console.log("desconto: " + desconto + "%");
 console.log("Preço Final: " + precoFinal);
- */
 
-/* //Atividade 16
+
+//Atividade 16
+
 function calcularCurso(valorCurso, quantidadeParcelas) {
   let valorParcela = valorCurso / quantidadeParcelas;
 
@@ -210,10 +212,10 @@ function calcularCurso(valorCurso, quantidadeParcelas) {
 calcularCurso(1200, 6);
 calcularCurso(3000, 10);
 calcularCurso(500, 2);
- */
+
 
 //Atividade 17
-/* 
+
 function calcularComissao(totalVendido, percentualComissao) {
   return totalVendido * (percentualComissao / 100);
 }
@@ -224,9 +226,9 @@ const valorComissao = calcularComissao(totalVendido, percentualComissao);
 
 console.log("Total Vendido: " + totalVendido);
 console.log("Comissão: " + percentualComissao + "%");
-console.log("Valor da comissão: " + valorComissao); */
+console.log("Valor da comissão: " + valorComissao); 
 
-/* //Atividade 18
+//Atividade 18
 function calcularPagamento(horas, valorHora) {
   return horas * valorHora;
 }
@@ -248,9 +250,9 @@ let pagamento3 = calcularPagamento(200, 20);
 console.log("Horas trabalhadas:", 200);
 console.log("Valor por hora: R$", 20);
 console.log("Pagamento: R$", pagamento3);
- */
 
-/* //Atividade 19
+
+//Atividade 19
 function boletim(nome, nota1, nota2, nota3) {
   let media = (nota1 + nota2 + nota3) / 3;
 
@@ -268,6 +270,50 @@ function boletim(nome, nota1, nota2, nota3) {
 }
 
 boletim("Mariana", 8, 7, 9);
- */
 
 //Atividade 20
+let valorProcessador = 1200;
+let valorRam = 500;
+let valorSSD = 600;
+let valorGPU = 2000;
+let valorDesconto = 10;
+let parcela = 12;
+
+function valorTotal() {
+  return valorProcessador + valorRam + valorSSD + valorGPU;
+}
+
+function valorFinal() {
+  return valorTotal() - desconto();
+}
+
+function desconto() {
+  return valorTotal() * (valorDesconto / 100);
+}
+
+function valoraVista() {
+  return valorFinal();
+}
+
+function valorDaParcela() {
+  return valoraVista() / parcela;
+}
+
+console.log("=================================================");
+console.log("               Orçamento - PC GAMER              ");
+console.log("=================================================");
+console.log("                                                 ");
+console.log("Processador:           " + "R$ " + valorProcessador);
+console.log("Memória RAM:           " + "R$ " + valorRam);
+console.log("SSD:                   " + "R$ " + valorSSD);
+console.log("Placa de vídeo:        " + "R$" + valorGPU);
+console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
+console.log("Total:                 " + "R$" + valorTotal());
+console.log();
+console.log("Desconto:              " + valorDesconto + "%");
+console.log("Valor Do Desconto:     " + "R$" + desconto());
+console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
+console.log("Valor Final:           " + "R$" + valorFinal());
+console.log("À vista:               " + "R$" + valoraVista());
+console.log("12x:                   " + "R$" + valorDaParcela());
+*/
